@@ -1,0 +1,26 @@
+{
+  "miniapp": {
+    "name": "我的小程序",
+    "version": "1.0.0",
+    "releaseDate": "2026-10-16",
+    "features": [
+      "功能一"
+    ],
+    "screenshots": [
+      "/shots/miniapp/1.0.0/home.png"
+    ],
+    "downloadUrl": ""
+  },
+  "app": {
+    "name": "我的 APP",
+    "version": "1.0.0",
+    "releaseDate": "2026-10-16",
+    "features": [
+      "功能一"
+    ],
+    "screenshots": [
+      "/shots/app/1.0.0/home.png"
+    ],
+    "downloadUrl": "/download/app-1.0.0.apk"
+  }
+}
