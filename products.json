@@ -1,8 +1,8 @@
 {
   "miniapp": {
     "name": "我的小程序",
-    "version": "1.0.0",
-    "releaseDate": "2026-10-16",
+    "version": "1.0.1",
+    "releaseDate": "2026-10-21",
     "features": [
       "功能一"
     ],
