@@ -9,10 +9,6 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger site rebuild
+      - name: Trigger Cloudflare Deploy Hook
         run: |
-          curl -X POST \
-            -H "Authorization: token ${{ secrets.SITE_REPO_TOKEN }}" \
-            -H "Accept: application/vnd.github+json" \
-            https://api.github.com/repos/yourname/my-site/dispatches \
-            -d '{"event_type":"data-updated"}'
+          curl -X POST "${{ secrets.CLOUDFLARE_HOOK }}"
